@@ -1,0 +1,100 @@
+.spacer{
+	height: 100px;
+}
+
+#hidespace{
+	height: 172px;
+}
+
+.formHeader {
+	margin: auto;
+	max-width: 400px;
+	justify-content: center;
+}
+
+.formHeader h3 {
+	text-align: center;
+	color: rgb(0,0,50);
+}
+
+.formHeader .select-horoscope{
+	width: 100%;
+	/*box-sizing: border-box;*/
+	padding: 10px;
+	border: none;
+	margin: 10px;
+	display: block;
+}
+
+.formHeader select{
+	font-family: inherit;
+}
+
+.formHeader option{
+	padding: 20px 10px;
+	font-family: montserrat;
+}
+
+.formHeader .btn{
+	padding: 10px 25px;
+	border: none;
+	font-family: montserrat;
+	text-align: center;
+	margin: auto;
+	display: block;
+	color: #fff;
+	background: rgb(0,0,50);
+	transition: .3s;
+}
+
+.formHeader .btn:hover{
+	background: #fff;
+	color: rgb(0,0,50);
+}
+
+.formHeader .for{
+	margin: 0 10px;
+}
+
+.horos-des {
+	margin: 10px;
+}
+
+.horos-des .content-1{
+	display: flex;
+	flex-direction: row;
+}
+
+.horos-des .content-2{
+	display: flex;
+	flex-direction: row;
+}
+
+.horos-des .par{
+	width: 50%;
+	margin: 10px;
+}
+
+.horos-des .horTitle{
+	text-align: center;
+}
+
+.horos-des .zodiacPic{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin: auto;
+}
+
+@media(max-width: 768px){
+	.horos-des .content-1{
+		flex-direction: column;
+	}
+
+.horos-des .content-2{
+		flex-direction: column;
+	}
+	.horos-des .par{
+		width: 100%;
+	}
+}
